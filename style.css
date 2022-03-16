@@ -276,8 +276,13 @@ header{
         max-width: 1000px;
         margin: 0 auto;
     }
-    .mybackground + .mybackground{
-        margin-left: 10em;
+    .background1 + .background2 +{
+        margin-left: 20em;
+        margin-right: 20em;
+    }
+    .background2{
+        padding-left: 2em;
+        padding-right: 2em;
     }
 }
 

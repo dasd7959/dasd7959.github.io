@@ -289,7 +289,7 @@ header{
 /* About me */
 .about-me{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px 30px 30px 30px;
 }
 .about-me-img{
     box-shadow: var(--bs);
@@ -328,8 +328,10 @@ header{
 
 .hobbies{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px 30px 30px 30px;
     background: var(--clr-dark);
+    background-size: cover;
+    text-align: center;
 }
 .section__title-hobby{
     color: var(--clr-accent);
